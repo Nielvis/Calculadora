@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+:root{
+    --primary-color:black;
+    --secondary-color: white;
+    --tertiary-color: gray;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+#container{
+    height: 430px;
+    width: 360px;
+    margin: 100px auto;
+    background:	#ddc123;
+    box-shadow: 5px 10px 5px;
+    border-radius: 20px;
+}
+
+.title{
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.forminput{
+    background: white;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+}
+
+.forminput:focus{
+    border: 3px solid var(--tertiary-color);
+    outline: none;
+}
+
+.formselect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formsubmit{
+    text-decoration: uppercase;
+    font-weight: bold;
+    display: black;
+    margin: center 30px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 315px;
+    height: 37px;
+    font-size: 17px;
+    color: white;
+}
+
+#totalgorjeta{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
