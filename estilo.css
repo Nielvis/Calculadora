@@ -10,17 +10,23 @@ body{
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     overflow: hidden;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    height: 100vh!important;
+    overflow: none!important;;
 }
 
 #container{
-    height: 430px;
-    width: 360px;
     margin: 100px auto;
     background:	#cacaca;
     box-shadow: 5px 10px 5px;
     border-radius: 20px;
     height: auto !important;
     padding-bottom: 1rem;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
 .title{
@@ -33,6 +39,7 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     text-align: center;
+    margin: 0;
 }
 
 .form{
@@ -67,6 +74,9 @@ body{
     height: 37px;
     font-size: 17px;
     color: white;
+    cursor: pointer;
+    transition: 0.1s;
+    width: 100%;
 }
 
 #totalgorjeta{
@@ -89,31 +99,16 @@ body{
     text-transform: lowercase; 
   }
 
-  body {
-    display: flex;
-    align-content: center;
-    margin: auto;
-    height: 100vh!important;
-    overflow: none!important;;
-  }
+.formsubmit:hover {
+    background: rgb(30, 30, 30);
+}
   
-  .title {
-    margin: 0;
-     margin: auto;
-  }
-  
-  #container {
-    height: auto;
-    margin: auto;
-    padding-bottom: 2rem;
-  }
-  
-  .formsubmit {
-    width: 100%;
-  }
-  
-  @media (max-width: 390px) {
+@media (max-width: 390px) {
     #container {
       width: 90%!important;
     }
-  }
+}
+
+.formsubmit:hover {
+    background: rgb(30, 30, 30);
+}
