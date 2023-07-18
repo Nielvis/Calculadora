@@ -88,3 +88,32 @@ body{
   #cada:first-letter {
     text-transform: lowercase; 
   }
+
+  body {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    height: 100vh!important;
+    overflow: none!important;;
+  }
+  
+  .title {
+    margin: 0;
+     margin: auto;
+  }
+  
+  #container {
+    height: auto;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  
+  .formsubmit {
+    width: 100%;
+  }
+  
+  @media (max-width: 390px) {
+    #container {
+      width: 90%!important;
+    }
+  }
