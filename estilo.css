@@ -72,3 +72,17 @@ body{
     margin-top: 5px;
     text-align: center;
 }
+
+#totalgorjeta {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #cada {
+    margin-left: 5px;
+  }
+  
+  #cada:first-letter {
+    text-transform: lowercase; 
+  }
